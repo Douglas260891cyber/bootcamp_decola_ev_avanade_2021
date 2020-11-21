@@ -1,0 +1,81 @@
+/*
+Não é obrigatório, mais é importante resetar alguns estilos
+para evitar problemas. Isso é possível
+com os comandos abaixo.
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 14px;
+}
+/*Body -> corpo da página.*/
+body {
+  width: 100;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+/*Lado esquerdo*/
+.instagram-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%; /*O tamanho do container ocupará 60% do bady.*/
+  height: 100vh;
+}
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+/*Alterando o tamanho de imagens.*/
+.instagram-phone img {
+  height: 50rem;
+  width: 55rem;
+
+}
+/*Lado direito*/
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: auto;
+    min-height:auto;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+/*Pega o primeiro container*/
+.group:nth-child(1) {
+    min-width: 19rem; 
+}
+.instagram-font {
+    height:7rem;    
+}
+.profile-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-photo img {
+   height: 6rem;
+}
+
+
+
