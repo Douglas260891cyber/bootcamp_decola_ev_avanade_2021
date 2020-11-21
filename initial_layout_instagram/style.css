@@ -21,7 +21,7 @@ body {
   justify-content: center;
 }
 /*Lado esquerdo*/
-.instagram-wrapper{
+.instagram-wrapper {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -37,45 +37,113 @@ body {
 /*Alterando o tamanho de imagens.*/
 .instagram-phone img {
   height: 50rem;
-  width: 55rem;
-
+  width: 25rem;
+  margin-right: 12px;
 }
 /*Lado direito*/
-.instagram-login{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    height: auto;
-    min-height:auto;
+.instagram-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30px;
+  width: 260px;
+  min-height: 60px;
 }
-.group{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    width: 100%;
-    padding: 1.3rem 0;
-    border: 1px solid lightgray;
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
 }
 /*Pega o primeiro container*/
 .group:nth-child(1) {
-    min-width: 19rem; 
+  min-width: 19rem;
+}
+.group:nth-child(2) {
+  margin-top: 4px;
+  width: 266px;
 }
 .instagram-font {
-    height:7rem;    
+  height: 7rem;
 }
 .profile-photo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .profile-photo img {
-   height: 6rem;
+  height: 10rem;
 }
-
-
-
+.instagram-login {
+  background-color: #0095f6;
+  color: white;
+  padding: 3px;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 0.5rem;
+}
+.not-account {
+  color: rgb(160, 160, 160);
+}
+.link-blue {
+  color: #0095f6;
+}
+.texto-get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+  color: #0095f6;
+  margin-top: 9px;
+  margin-bottom: -30px;
+}
+.dowload {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.logos-app {
+  height: 3rem;
+  width: 16rem;
+  background-size: cover;
+}
+/*Tratando a responsividade para diferentes telas*/
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90;
+  }
+}
+/*Para celular...*/
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+  .instagram-wrapper {
+    width: 90;
+  }
+  .instagram-phone {
+    display: none; /*Quando a resokução da tela for
+    menor que 650px, a imagem do celular (instagram-phone)
+    irá sumir.*/
+  }
+  .instagram-login {
+    width: 100%;
+  }
+  .dowload {
+    border: 1px solid transparent;
+  }
+}
