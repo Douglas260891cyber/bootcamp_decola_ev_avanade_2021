@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "digitalInnovationOne_dotnet/1.0.0": {
+        "runtime": {
+          "digitalInnovationOne_dotnet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "digitalInnovationOne_dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
