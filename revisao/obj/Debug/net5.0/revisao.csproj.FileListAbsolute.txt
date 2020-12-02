@@ -1,0 +1,16 @@
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao.deps.json
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao.runtimeconfig.json
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao.runtimeconfig.dev.json
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao.dll
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/ref/revisao.dll
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/bin/Debug/net5.0/revisao.pdb
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.csprojAssemblyReference.cache
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.GeneratedMSBuildEditorConfig.editorconfig
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.AssemblyInfoInputs.cache
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.AssemblyInfo.cs
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.csproj.CoreCompileInputs.cache
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.dll
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/ref/revisao.dll
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.pdb
+/home/douglasmoro/Documentos/cursosETrabalho/cursosDeTI/bootcamp_decola_ev_avanade_2021/revisao/obj/Debug/net5.0/revisao.genruntimeconfig.cache
