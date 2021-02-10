@@ -1,5 +1,5 @@
 /*
-Não é obrigatório, mais é importante resetar alguns estilos
+Não é obrigatório, mas é importante resetar alguns estilos
 para evitar problemas. Isso é possível
 com os comandos abaixo.
 */
@@ -9,6 +9,7 @@ com os comandos abaixo.
   box-sizing: border-box;
   text-decoration: none;
   font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*Body -> corpo da página.*/
 body {
@@ -36,8 +37,8 @@ body {
 }
 /*Alterando o tamanho de imagens.*/
 .instagram-phone img {
-  height: 50rem;
-  width: 25rem;
+  height: 40rem;
+  width: 20rem;
   margin-right: 12px;
 }
 /*Lado direito*/
@@ -82,6 +83,8 @@ body {
   height: 10rem;
 }
 .instagram-login {
+  height: 40px;
+  width: 18rem;
   background-color: #0095f6;
   color: white;
   padding: 3px;
@@ -97,6 +100,7 @@ body {
 }
 .link-blue {
   color: #0095f6;
+  cursor: pointer;
 }
 .texto-get-the-app {
   display: flex;
@@ -115,6 +119,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
+  cursor: pointer;
 }
 .logos-app {
   height: 3rem;
@@ -124,7 +129,7 @@ body {
 /*Tratando a responsividade para diferentes telas*/
 @media (max-width: 1024px) {
   .instagram-wrapper {
-    width: 90;
+    width: 50;
   }
 }
 /*Para celular...*/
@@ -136,12 +141,11 @@ body {
     width: 90;
   }
   .instagram-phone {
-    display: none; /*Quando a resokução da tela for
-    menor que 650px, a imagem do celular (instagram-phone)
-    irá sumir.*/
+    display: none; 
   }
   .instagram-login {
-    width: 100%;
+      height: 40px;
+      width: 18rem;
   }
   .dowload {
     border: 1px solid transparent;
